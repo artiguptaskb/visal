@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Design & Development</title>
+
+       <!-- css connection -->
+       <link rel="stylesheet" href="style.css">
+       <!-- java script cdn -->
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+           <!-- font awesome cdn -->
+           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+           <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+           <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<body>
+
+    <!-- navigation section start -->
+
+    <div class="container ">
+
+    <nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <a class="navbar-brand fade-in-left">
+        <img src="images/brandcurb-logo.webp">
+    </a>
+    <button class="navbar-toggler  " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navigation">
+            <ul>
+              <li><a href="index.html">Website</a></li>
+                <li><a href="search-engine-optimization.html">SEO</a></li>
+                <li><a href="branding.html">Branding</a></li>
+                <li><a href="ppc.html">PPC</a></li>
+                <li> <a href="About-us.html">About us</a></li>
+                <li> <a href="blog.html">Blog</a></li>
+                <li><a href="contact-us.html">Contact us</a></li>
+                <li><i class="fa-solid fa-magnifying-glass"></i></li>
+                <li><i class="fa-solid fa-lock"></i></li>
+                <li class="button"><button>Book a free consulation</button></li>
+            </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+    <!-- navigation section end -->
+    
+    <!-- css -->
+    
+<style>
+/* modal css */
+.mk{
+    background-color: #007873;
+    position: absolute;
+    right: -40px;
+    top: 40%;
+   position: fixed;
+   transform: rotate(90deg);
+   color: white;
+  }
+
+  .mk:hover{
+    background-color: #ee5e3b;
+  }
+  .modal-footer button{
+    background-color: #007873;
+  }
+  .modal-footer button:hover{
+    background-color: #007873;
+  }
+
+  input {
+          width: 90%;
+          margin: 15px 0px 0px 22px;
+          padding: 10px;
+        
+        }
+        
+        .modal-body{
+          background-color:#007873 ;
+        }
+        .modal-title{
+          color: #ee5e3b;
+          margin-left: 5%;
+        
+        }
+  /* modal css */
+    .abc{
+        display: none;
+    }
+
+    .hide{
+            transform: translateX(-300px);
+        }
+        #ram{
+         position: fixed;
+        bottom: 20px;
+        right: 10px;
+        transition-property: all;
+        transition-duration: .2s;
+        background-color:#007873;
+        padding: 10px;
+        font-size: 30px;
+        box-shadow: 3000;
+        color: white;
+        }
+        .displaynone{
+         transform: translateY(1200px);
+        opacity: 0px;
+        }
+
+
+       
+</style>
+
+
+<!-- hero section start  -->
+
+<div class="row pt-5  mt-5  g-0 ">
+    <div class="col-sm-7 col-md-7 col-lg-7 heading">
+
+        <div class="heading"><h1 data-aos="fade-up"  data-aos-duration="1000" >Contact BrandCurb?</h1></div>
+
+        <div class="pt-3 fs-5" data-aos="fade-up"  data-aos-duration="2000"> 
+
+          If you’ve got any questions, please fill out the short form below to <br>
+           drop us an email and we promise to get back to you shortly.
+
+
+
+        </div>
+
+        <div class="btn btn"><button class="btn-fulid px-3 py-2 mt-4"> view pricing <i class="fa-solid fa-circle-chevron-down"></i></button></div>
+        <div class=" btn btn_2 "><button class="btn- d-none d-md-none d-lg-inline mt-4 "><i class="fa-solid fa-phone"></i>Book a free Consulation </button></div>
+        
+
+
+    </div>
+
+    <div class="col-sm-5  col-md-5 col-lg-5 second-section">
+
+        <img src="images/about-brandcurb.webp">
+
+    </div>
+
+</div>
+
+</div>
+
+
+<!-- hero section end -->
+
+
+
+
+<style>
+  .a{
+    font-size: 50px;
+   
+  }
+</style>
+<!-- third section start -->
+<div class="container  py-5">
+
+  <div class="row py-5  tw_sec">
+  
+    <div class="col-sm-6  col-md-6 ">
+  
+      <div class="card" style="border: solid 3px rgba(141, 138, 138, 0.173);">
+  
+      <div class="card-title text-center  a twele">Who we are?</div>
+      <div class="card-text" style="color: #495057 !important; text-align: center;  font-size: 18px;  line-height: 35px; margin: 20PX;">
+
+        BrandCurb is a unified communications platform that <br>
+         empowers business owners and promotes business growth <br>
+          through services that strengthen brand identity, and <br>
+           sustainably promote online presence to increase <br>
+            engagement. We offer services to help small business <br>
+             enterprises from branding, website development, to digital <br>
+              marketing—and everything else digital in between. <br> <br>
+
+        No need to waste time and money on different agencies <br>
+         that inclusively focus on various aspects of your business <br>
+          because at BrandCurb, we’ve got everything you need—and  <br>  <br>
+          so much more.
+        
+        BrandCurb houses professionals who will closely work  <br>
+         you as you effectively, efficiently, and sustainably race <br>
+          towards achieving your company’s growth, at a reasonable <br>
+           cost for your budding venture. So it’s worry-free, hassle-free, <br>
+           and affordable!
+        
+        It is for these reasons that 90% of our clients from all over <br>
+         the world keep coming back! Just ask them!    </div>
+  
+     
+  
+    </div>
+  </div>
+  
+  
+    <div class="col-sm-6  col-md-6 tw_sec ">
+  
+  
+      <div class="card-img">
+  <img src="images/social-media-marketing (1).webp"  alt="">
+      </div>
+  
+    
+        
+      </div>
+  
+    </div>
+  
+  </div>
+  <!-- third section end -->
+
+<style>
+  .fir{
+    font-family: sans-serif !important
+
+  }
+  h1 span{
+    font-size: 70px;
+    color: rgba(0, 0, 0, 0.619);
+    font-weight: bold;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  ul li{ 
+    list-style: none;
+    margin-top: 20px;
+  }
+  ul li{
+    color: #495057;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+  }
+  .desc{
+    font-size: 20px;
+    color: #495057;
+    margin-top: 10px;
+    -webkit-font-smoothing: antialiased;
+
+  }
+
+
+  /* .btn{
+    background: linear-gradient(to right, #007873, #ee5e3b) !important; 
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+    padding: 10px;
+  } */
+
+  .email{
+    font-size: 60px;
+    color: rgba(0, 0, 0, 0.888);
+    font-weight: bold;
+    -webkit-font-smoothing: antialiased;
+  }
+
+input{
+  background-color: gainsboro;
+}
+.bt{
+  background:linear-gradient(to right,#007873,#ee5e3b) !important;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+}
+label{
+  color: #495057;
+  font-size: 17px;
+  font-weight: 400px;
+}
+input{
+  background-color: #f8f9fa !important;
+}
+.t{
+  color: #495057;
+  font-size: 17px;
+}
+textarea{
+background-color: #f8f9fa !important;
+}
+select option{
+  color: black;
+  font-weight: 500px;
+}
+
+</style>
+
+
+  <!-- fourth section start -->
+
+  <div class="container ">
+    <div class="row">
+      <div class="col-md-6 fir">
+
+        <h1> <span>Frequently </span>Asked <br>
+           Questions</h1>
+
+           <div class="desc">Need help reaching us? Check out our FAQ section</div>
+
+           <ul>
+            <li>what are your business hourse?</li>
+            <li>What is te best way to  content your team?</li>
+            <li>How long can i except  to wait for a response to my enquiiry?</li>  
+            <li>Do you have a  physcially  office or is your team ontriely  remote?</li>
+           </ul>
+
+      </div>
+
+      <div class="col-md-6">
+       <h1 class="email">E-mail Us!</h1>
+
+       <div class="row">
+        <div class="col">
+          <label for=""  class="ms-4">Full name</label>
+          <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+        </div>
+
+        <div class="col-md-6">
+          <label for="" class="ms-4" >Email address</label>
+          <input type="text" class="form-control" placeholder="email@your.combarnd " aria-label="email address">
+        </div>
+
+
+
+        <div class="row mt-3"> 
+        <label for="" class="ms-4">Tell us more about your brand</label>
+        <textarea  class="mt-3 ms-4 t"  rows="5"  name="" id="" placeholder="please share as much details as you can"></textarea>
+      </div>
+      <div class="col mt-4">
+        <label for="" class="ms-3">What aspect you need help <br>
+           with?</label>
+            <select name="" class="ms-3" id="">
+
+              <option  value="-please choose an option-" aria-readonly="">-Please choose an option-</option>
+              <option  value="">Branding</option>
+              <option  value="">Marketing</option>
+              <option  value="">Lanuche Process</option>
+            </select>     
+   </div>
+
+      <div class="col mt-4">
+        <label for="" class="ms-4">Enter you phone number</label>
+        <input type="text" class="form-control" placeholder="Phone #" aria-label="phone number">
+      </div>
+
+
+
+      <input class="btn mt-3   bt " type="submit">
+    </div>
+
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+<!-- fourth section start -->
+
+
+<!-- location -->
+
+<div class="container mt-5 ">
+  <div class="row">
+
+  
+
+  <div class="col-md-4">
+    <h1 class="email ">Our Offices</h1>
+
+  </div>
+
+  <div class="col-md-3" >
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2503.3922028352767!2d-79.36605786108578!3d43.65363210731017!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cf27c09ccf4f%3A0xda7e236c92015b67!2sBrandCurb!5e0!3m2!1sen!2sus!4v1717092547995!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+   
+
+  </div>
+  <div class="col-md-3">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3256.161113378411!2d136.817147!3d35.301978000000005!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6003a1b3cfdff4e5%3A0x56b82d8971b557f6!2sBrandCurb!5e0!3m2!1sen!2sus!4v1717092720609!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade "></iframe>
+   
+
+  </div>
+
+</div>
+
+</div>
+
+ <!-- footer section start -->
+
+ <hr>
+ <div class="container-fluid footer p-5">
+ 
+   <div class="row">
+ 
+     <div class="col-sm-4 col-md-4">
+       <img src="images/brandcurb-logo.webp" alt="">
+   
+ 
+     <div class="footer_text my-3" style="line-height: 30px; color: #495057;">
+       BrandCurb is a unified communications platform <br>
+        that empowers business owners and promotes  <br>
+        business growth through services that strengthen  <br>
+        brand identity, and sustainably promote <br>
+        online presence to increase engagement.
+ 
+        <br>
+        <br>
+        
+        <h5 style="font-weight: bold;">Secure Payment</h5>
+       
+ 
+     </div>
+ 
+   </div>
+     <div class="col-sm-3 col-md-3">
+ 
+       <h5 style="font-weight: bold; color: #495057;">Services</h5>
+ 
+ 
+ 
+       <div style="color: #495057; margin-top: 17%; line-height: 35px;">
+         Web development<br>
+         SEO <br>
+         PPc Marketing
+ 
+ 
+       </div>
+ 
+           <div><img src="images/goodframes.svg" width="44%" style="margin-top: 20%;"></div>
+ 
+ 
+     </div>
+     <div class="col-sm-2 col-md-2">
+ 
+       <div style="color: #495057; margin-top: 17%; line-height:40px;">branding <br>
+         E-Mail Marketing <br>
+         Social Media Marketing
+       </div>
+ 
+       <div style="margin-top: 60%;"><img src="images/featured.png" alt="" width="100%"></div>
+ 
+ 
+      
+     </div>
+     <div class="col-sm-3 col-md-3">
+ 
+ 
+       <div style="width: 100%; height: 380px; background-color: white; border: 2px solid rgba(128, 128, 128, 0.23);">
+        
+         <h5 style="color: #495057; margin-top: 30px; margin-left: 30%;">Contact us</h5>
+ 
+ 
+         <div style="color: #495057; margin-top:10%; text-align: center; line-height: 30px;">
+           +1 888 318 CURB <br>
+ 
+         340 King Street East <br>
+         Toronto, ON M5A 1K8
+         </div>
+ 
+         <div>
+           <img src="images/PartnerBadgeClickable.svg" alt="partner_google_img" width="50%" style="margin-top: 30px;margin-left: 24%;">
+         </div>
+       </div>
+ 
+     </div>
+ 
+   </div>
+ 
+ </div>
+ <hr>
+ 
+ 
+ <div class="footer_2 ">
+ 
+   <div class="footer_left">
+     Copyright © BrandCurb 2013-2023.
+ 
+   </div>
+ 
+   <div class="footer_right">
+     Careers Terms & Conditions  Privacy Policy 
+    
+ 
+ 
+   </div>
+ 
+ </div>
+ 
+ <!-- footer section end -->
+
+
+
+<!-- modal start -->
+ <!-- Button trigger modal -->
+ <button type="button" class="btn btn-primary   mk" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Enquary button
+  </button>
+
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">ENQUIRY NOW OR CALL</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body" style="height: 330px;">
+
+
+          <form action="">
+            <input type="text" placeholder="Your name" > <br>
+            <input type="text" placeholder="Contact number"><br>
+            <input type="text" placeholder="E-Mail"><br>
+            <input type="text" placeholder="Course looking for">
+          </form>
+
+
+          <button style="position: absolute; left: 40%; top: 85%; width: 20%; height: 40px; background-color: rgb(51, 48, 47);" >submit</button>
+            
+          ...
+        </div>
+        <div class="modal-footer">
+
+        
+         
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- skjdhsjkdhjskh -->
+
+<!-- modal end -->
+                    
+<!-- button -->
+<button id="ram" onclick="shyam()" style="position: fixed;" class="displaynone"><i class="fa-solid fa-arrow-up"></i></button>
+
+
+<!-- java script start -->
+
+<script>
+     function arti(){
+            document.getElementsByClassName("fa-bars")[0].classList.toggle("abc");
+            document.getElementsByClassName("fa-x")[0].classList.toggle("abc");
+            document.getElementsByClassName("menus")[0].classList.toggle("hide");
+        }
+        
+  AOS.init();
+
+nav
+
+
+//   dfjdjkgkj
+
+function bb(){
+    if (document.documentElement.scrollTop > 100){
+        document.getElementById("ram").classList.remove("displaynone");
+    }
+
+        else{
+            document.getElementById("ram").classList.add("displaynone")
+        }
+
+    }
+    function shyam(){
+        window.scrollTo(-100,0)
+
+    }
+
+
+</script>
+
+<!-- java script end -->
+
+
+
+
+
+    
+</body>
+</html>
+
+   
+   
+  
+
+
+
+
+

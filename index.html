@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Design & Development</title>
+       <!-- css connection -->
+       <link rel="stylesheet" href="style.css">
+       <!-- java script cdn -->
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+           <!-- font awesome cdn -->
+           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+           <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+           <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+            <!-- Owl Carousel CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- Owl Carousel JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<body>
+
+    <!-- navigation section start -->
+
+    <div class="container">
+
+    <nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <a class="navbar-brand fade-in-left">
+        <img src="images/brandcurb-logo.webp">
+    </a>
+    <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navigation">
+            <ul>
+              <li><a href="index.html">Website</a></li>
+                <li><a href="search-engine-optimization.html">SEO</a></li>
+                <li><a href="branding.html">Branding</a></li>
+                <li><a href="ppc.html">PPC</a></li>
+                <li> <a href="About-us.html">About us</a></li>
+                <li> <a href="blog.html">Blog</a></li>
+                <li><a href="contact-us.html">Contact us</a></li>
+                <li><i class="fa-solid fa-magnifying-glass"></i></li>
+                <li><i class="fa-solid fa-lock"></i></li>
+                <li class="button"><button>Book a free consulation</button></li>
+            </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+    <!-- navigation section end -->
+    
+    <!-- hero section end -->
+    
+<style>
+/* modal css */
+.mk{
+    background-color: #007873;
+    position: absolute;
+    right: -40px;
+    top: 40%;
+   position: fixed;
+   transform: rotate(90deg);
+   color: white;
+  }
+
+  .mk:hover{
+    background-color: #ee5e3b;
+  }
+  .modal-footer button{
+    background-color: #007873;
+  }
+  .modal-footer button:hover{
+    background-color: #007873;
+  }
+
+  input {
+          width: 90%;
+          margin: 15px 0px 0px 22px;
+          padding: 10px;
+        
+        }
+        
+        .modal-body{
+          background-color:#007873 ;
+        }
+        .modal-title{
+          color: #ee5e3b;
+          margin-left: 5%;
+        
+        }
+  /* modal css */
+    .abc{
+        display: none;
+    }
+
+    .hide{
+            transform: translateX(-300px);
+        }
+        #ram{
+         position: fixed;
+        bottom: 20px;
+        right: 10px;
+        transition-property: all;
+        transition-duration: .2s;
+        background-color:#007873;
+        padding: 10px;
+        font-size: 30px;
+        box-shadow: 3000;
+        color: white;
+        }
+        .displaynone{
+         transform: translateY(1200px);
+        opacity: 0px;
+        }
+
+
+        .owl-carousel .item {
+      padding: 10px;
+      background-color: #f4f4f4;
+      text-align: center;
+    }
+    .owl-carousel{
+        text-align: center;
+       font-size: 30px;
+       /* border: 3px  solid black; */
+    }
+
+       
+</style>
+
+
+
+
+
+<!-- third section start -->
+
+<div class="row pt-5  g-0">
+    <div class="col-sm-7 col-md-7 col-lg-7 heading">
+
+        <div class="heading"><h1 data-aos="fade-up"  data-aos-duration="1000" >COMPLETE WEB DESIGN<br>& DEVELOPMENT</h1></div>
+
+        <div class="pt-3 fs-5" data-aos="fade-up"  data-aos-duration="2000"> 
+
+            Say goodbye to sleepless nights over counterproductive<br>
+             communications between service providers, and no more overbilling-<br>
+             related nightmares for services you’re not sure you need but you’re sure<br>
+              you have to pay for.
+
+        </div>
+
+        <div class="btn btn"><button class="btn-fulid px-3 py-2 mt-4"> view pricing <i class="fa-solid fa-circle-chevron-down"></i></button></div>
+        <div class=" btn btn_2 "><button class="btn- d-none d-md-none d-lg-inline mt-4 "><i class="fa-solid fa-phone"></i>Book a free Consulation </button></div>
+        
+
+
+    </div>
+
+    <div class="col-sm-5  col-md-5 col-lg-5 second-section">
+
+        <img src="images/web-design-development.webp">
+
+    </div>
+
+</div>
+
+<!-- fourth section -->
+<div class="row carousel g-0">
+
+    <div class="col-12 d-none d-md-block">
+        <marquee behavior="" direction="">
+            <img src="https://brandcurb.com/assets/2016/04/mayor-aguinaldo.webp" alt="">
+            <img src="https://brandcurb.com/assets/2016/04/hvitality.webp" alt="">
+            <img src="https://brandcurb.com/assets/2016/04/lenikiko.webp" alt="">
+            <img src="https://brandcurb.com/assets/2016/04/branreluaoandassociates.webp" alt="">
+            <img src="https://brandcurb.com/assets/2016/04/protostarter.webp" alt="">
+            <img src="https://brandcurb.com/assets/2016/04/angrybuchi.webp" alt="">
+        </marquee>
+
+    </div>
+
+</div>
+
+<!-- five section start -->
+
+<div class="row py-5 g-0">
+
+    <div class="col-sm-6  col-md-6 text_5">
+        <h6>Custome Web Design & Develpoment Packages For Your Business</h6>
+
+</div>
+<div class="heading_2 my-5"><h1>Choose the Perfrct <span>Website  Solution </span>for Your Business </h1></div>
+
+<div class="text_2  py-2" data-aos="fade-up" data-aos-duration="2000">
+    At BrandCurb, we understand that every business is unique, which is <br>
+     why we offer custom web design and development packages that <br>
+      are tailored to your specific needs. Our team of experienced designers <br>
+       and developers work closely with you to create a website that is not  <br>
+       only visually stunning but also functional and user-friendly. From e- <br>
+       commerce sites to custom CMS builds, our packages are designed to  <br>
+       meet your specific requirements and budget.
+
+</div>
+
+<!-- fiveth section start -->
+<div class="row py-5 g-0">
+    
+    <div class="col-sm-6 col-md-6 lg-block text_3">
+
+        <button class=" btn">pricing</button>
+        <div class="my-4  text-dark fs-2" ><h2  data-aos="fade-up" data-aos-duration="2000" >Website Design & Development</h2></div>
+
+        <div>
+            We offer comprehensive web design and development services that  <br>
+            are tailored to meet the unique needs of your business. Our team of <br>
+             experienced designers and developers work closely with you to create  <br>
+             a website that not only looks great but also functions seamlessly. We <br>
+              focus on creating a user-friendly experience for your visitors, ensuring <br>
+               that your website is easy to navigate and optimized for conversions.At  <br>
+               BrandCurb, we take a collaborative approach to every project, <br>
+               ensuring that we fully understand your business and your goals <br>
+                before we begin. Whether you're looking to launch a new website or  <br>
+                redesign an existing one, we are here to help you achieve your online <br>
+                 objectives. Contact us today to learn more about our web design and  <br>
+                 development services and how we can help your business succeed online.
+
+        </div>
+
+    </div>
+
+
+    <div class="col-sm-6 col-md-6 ">
+
+        <div class="card " style="border: 2px solid rgba(128, 128, 128, 0.09); height: 500px;">
+
+        <div class="my-5 mx-4"><h6>PACKAGE</h6></div>
+        <div class="btn-group  my-5 " style="width: 43%; border: 1px solid rgba(117, 116, 116, 0.472); border-radius: 10px; position: absolute; left: 33%;">
+            <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              Choose an Option
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end ">
+              <li><button class="dropdown-item" type="button">Choose an option</button></li>
+              <li><button class="dropdown-item" type="button">Essentail</button></li>
+              <li><button class="dropdown-item" type="button">Premium</button></li>
+              <li><button class="dropdown-item" type="button">Ultimate</button></li>
+            </ul>
+          </div>
+          <hr style="width: 90%; position: absolute; left: 5%; top:20%;">
+            
+          <button class="btn btn-4" style="width: 21%; background-color: rgba(128, 128, 128, 0.558); position: absolute; left: 5%; top: 26%; font-weight: bold; color: white; font-size: 12px; ">SIGN UP NOW</button>
+
+            <div class="text-4">HAVE QUESTIONS ABOUT OUR PRICING?</div>
+
+
+            <div class="text-center" style="position: absolute; top: 45%; font-size: 15px; margin-left: 25px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color:  #495057 !important;">We'll help you choose the package that's right for your business and  <br>
+                answer any questions you may have. Don't wait, schedule your <br>
+                 consultation now.</div>
+
+
+                 <div style="position: absolute; top: 73%; left: 5%;">Sare this: <i class="fa-brands fa-facebook"> </i> <i class="fa-brands fa-twitter"></i> <i class="fa-brands fa-linkedin"></i></div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- six section start -->
+<div class="row background g-0">
+    <div class="col-sm-6 col-md-6 img_3">
+        <img src="https://avatars.mds.yandex.net/i?id=b523bc07baaa388736a7d6e4390076487719ebc9-9182224-images-thumbs&n=13" alt="" srcset="">
+    </div>
+
+
+    <div class="col-sm-6 col-md-6 heading_5 ">
+        <div class="card">
+            <h2  data-aos="fade-up" data-aos-duration="2000">Web Design-related Issues Resolved</h2>
+
+             <div class="text-6"> overall design is blah and generic. You don’t agree with  <br>
+            the tabs, it’s kind of confusing. You don’t get how this site will  <br>
+            help your business grow. To top everything off, you are <br>
+             overwhelmed by the number of designers and programmers <br>
+              pitching in to help you with specific areas of your website. Fret   <br>
+              not, BrandCurb has arrived.
+
+
+With BrandCurb, you don’t need to look and pay for separate  <br>
+experts who can help you fix your page. We are known for <br>
+ helping businesses grow by ensuring that their WordPress <br>
+  and WooCommerce websites bring in actual revenues that <br>
+   increase the value of their businesses, and not merely design  <br>
+    an online billboard, passively attracting mere visits and not  <br>
+    sengagements.
+</div>
+
+        </div>
+    </div>
+
+</div>
+
+<!-- seven section strt -->
+<div class="row mt-5 ro g-0">
+<div  class=" col-sm-4   col-md-4  seven_section">Customized Strategies and Results-Driven Solutions</div>
+</div>
+
+
+<div class="row">
+    <div  class="heading-6"><h1>Why BrandCurb?</h1></div>
+    </div>
+
+    <div class="row">
+        <div class="arti_7 "><p>Our Expertise and Commitment to Your Success Sets Us Apart</p></div>
+        </div>
+
+
+        <!-- eight section strat -->
+        <div class="row row-cols-1 row-cols-md-3 g-4 g-0 " data-aos="fade-out" data-aos-duration="2000">
+            <div class="col">
+              <div class="card ">
+                <img src="images/call.png" class="card-img-top" alt="...">
+                <div class="card-body my-5">
+                  <h5 class="card-title  fs-2 text-center">Personalized Business Package</h5>
+                  <p class="card-text text-center">Choose from a wide range of web solutions that you need to ensure effective, efficient, and sustainable growth of your business. BrandCurb works on the smallest to largest detail of your website---from mobile and speed optimization, to landing page designs, and even SEO---basically, everything under the digital sun!.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card xx">
+                <img src="images/lock.jpg" class="card-img-top" alt="...">
+                <div class="card-body my-5">
+                  <h5 class="card-title fs-2 text-center">Customized Approach</h5>
+                  <p class="card-text text-center">
+                    Clients from arounand benefited from our responsive WordPress and WooCommerce websites. These SMEs are able to stand-up and even surpass bigger and heavier competition at a lower cost here at BrandCurb---all because our services are tailored and uniquely-made for you and your specific vision for your company..</p>
+                </div>
+            </div>
+            </div>
+          
+            <div class="col">
+              <div class="card">
+                <img src="images/phone.jpg" class="card-img-top" alt="..." style="background-color: rgb(29, 67, 67); border-radius: 50px;">
+                <div class="card-body my-5">
+                  <h5 class="card-title fs-2 text-center">Results-Driven Solutions</h5>
+                  <p class="card-text text-center">At mitted to delivering measurable results for our clients. We leverage the latest technologies and marketing tools to create data-driven campaigns that are optimized for performance and ROI. Our team is constantly monitoring and analyzing campaign performance, making adjustments as needed.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+        <!-- mnjkhgkjgkjgk -->
+
+    
+    </div>
+</div>
+
+<!-- nine section start -->
+
+<div class="nine_section">
+
+
+    <div class="text_nine_section">
+        See How We've Helped Businesses Succeed Online
+
+    </div>
+
+    <div class="light">
+    <h1  data-aos="fade-right"  data-aos-duration="2000">Our Website And Development Projects</h1>
+</div>
+
+
+
+<div class="text-7">
+    At BrandCurb, we are proud of the websites and development projects we  <br>
+    have created for our clients. From e-commerce sites to custom CMS builds, <br>
+     our team has the expertise and creativity to develop unique solutions that <br>
+      meet our clients' needs. Browse through our portfolio to see examples of our <br>
+       work and learn more about how we can help your business succeed online.
+       <br>
+        <br>
+         
+       
+       <span> to take your website to the next level? Contact us today to schedule a <br>
+        consultation with one of our experts and learn how we can help you achieve your <br>
+                                online goals.</span>
+
+</div>
+
+</div>
+
+<!-- ten section start -->
+
+<div class="ten_section">
+  
+
+</div>
+<!-- ten section end -->
+
+
+
+
+<!-- eleven_section start -->
+
+<!-- <div class="slider">
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel py-5">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://brandcurb.com/assets/2020/08/brandcurb-auto-company-1536x731.jpg.webp" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://brandcurb.com/assets/2020/08/hvitality-homepage-1536x731.jpg.webp" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://brandcurb.com/assets/2020/08/mayor-aguinaldo-homepage-1536x731.jpg.webp" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div> -->
+
+<!-- eleven section end -->
+
+<!-- owl carousel start -->
+
+
+<div class="owl-carousel mt-5">
+  <div class="item"><img src="images/brandcurb-auto-company-1536x731.jpg.webp" alt="image"></div>
+  <div class="item"><img src="images/hvitality-homepage-1536x731.jpg.webp" alt="Image 2"></div>
+  <div class="item"><img src="images/mayor-aguinaldo-homepage-1536x731.jpg.webp" alt="Image 3"></div>
+  <!-- <div class="item"><img src="" alt="Image 4"></div> -->
+</div>
+
+<!-- Owl Carousel Initialization -->
+<script>
+  $(document).ready(function(){
+    $(".owl-carousel").owlCarousel({
+      items: 3,
+      loop: true,
+      margin: 10,
+      nav: true,
+      dots: true,
+      autoplay: true,
+      autoplayTimeout: 3000,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 2
+        },
+        1000: {
+          items: 3
+        }
+      }
+    });
+  });
+</script>
+
+
+<!-- owl carousel end -->
+
+
+
+<!-- twele section start -->
+
+<div class="container  py-5">
+
+<div class="row py-5  tw_sec">
+
+  <div class="col-sm-6  col-md-6 ">
+
+    <div class="card" style="border: solid 3px rgba(141, 138, 138, 0.173);">
+
+    <div class="card-title text-center  twele">SMES Web Design </div>
+    <div class="card-text" style="color: #495057; text-align: center;  font-size: 15px; font-weight: bold; line-height: 25px; margin: 20PX;">
+      It is for these reasons that 90% of our clients from all over the world keep coming back! <BR><BR>
+         Just ask them!
+
+Being a one-stop shop hub for digital communication and marketing isn’t BrandCurb’s claim to fame because we simply aren’t. However, we are known worldwide because our one-stop shop hub actually generates measurable results in branding, digital marketing, and website development, enabling effective, efficient, and sustainable growth in our clients’ businesses. Just look at the exponential growth in our current target markets in Toronto, the Philippines, and Japan!
+    </div>
+
+   
+
+  </div>
+</div>
+
+
+  <div class="col-sm-6  col-md-6 tw_sec ">
+
+
+    <div class="card-img">
+      <img src="images/milestone.jpg" alt="" width="100%" style="margin-left: 20px;">
+
+    </div>
+
+  
+      
+    </div>
+
+  </div>
+
+</div>
+
+
+</div>
+
+
+<!-- twele section end -->
+
+
+<!-- footer section start -->
+
+<hr>
+<div class="container-fluid footer p-5">
+
+  <div class="row">
+
+    <div class="col-sm-4 col-md-4">
+      <img src="images/brandcurb-logo.webp" alt="">
+  
+
+    <div class="footer_text my-3" style="line-height: 30px; color: #495057;">
+      BrandCurb is a unified communications platform <br>
+       that empowers business owners and promotes  <br>
+       business growth through services that strengthen  <br>
+       brand identity, and sustainably promote <br>
+       online presence to increase engagement.
+
+       <br>
+       <br>
+       
+       <h5 style="font-weight: bold;">Secure Payment</h5>
+      
+
+    </div>
+
+  </div>
+    <div class="col-sm-3 col-md-3">
+
+      <h5 style="font-weight: bold; color: #495057;">Services</h5>
+
+
+
+      <div style="color: #495057; margin-top: 17%; line-height: 35px;">
+        Web development<br>
+        SEO <br>
+        PPc Marketing
+
+
+      </div>
+
+          <div><img src="images/goodframes.svg" width="44%" style="margin-top: 20%;"></div>
+
+
+    </div>
+    <div class="col-sm-2 col-md-2">
+
+      <div style="color: #495057; margin-top: 17%; line-height:40px;">branding <br>
+        E-Mail Marketing <br>
+        Social Media Marketing
+      </div>
+
+      <div style="margin-top: 60%;"><img src="images/featured.png" alt="" width="100%"></div>
+
+
+     
+    </div>
+    <div class="col-sm-3 col-md-3">
+
+
+      <div style="width: 100%; height: 380px; background-color: white; border: 2px solid rgba(128, 128, 128, 0.23);">
+       
+        <h5 style="color: #495057; margin-top: 30px; margin-left: 30%;">Contact us</h5>
+
+
+        <div style="color: #495057; margin-top:10%; text-align: center; line-height: 30px;">
+          +1 888 318 CURB <br>
+
+        340 King Street East <br>
+        Toronto, ON M5A 1K8
+        </div>
+
+        <div>
+          <img src="images/PartnerBadgeClickable.svg" alt="partner_google_img" width="50%" style="margin-top: 30px;margin-left: 24%;">
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+<hr>
+
+
+<div class="footer_2 ">
+
+  <div class="footer_left">
+    Copyright © BrandCurb 2013-2023.
+
+  </div>
+
+  <div class="footer_right">
+    Careers Terms & Conditions  Privacy Policy 
+   
+
+
+  </div>
+
+</div>
+
+<!-- footer section end -->
+
+
+
+<!-- modal start -->
+ <!-- Button trigger modal -->
+ <button type="button" class="btn btn-primary   mk" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Enquary button
+  </button>
+
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">ENQUIRY NOW OR CALL</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body" style="height: 330px;">
+
+
+          <form action="">
+            <input type="text" placeholder="Your name" > <br>
+            <input type="text" placeholder="Contact number"><br>
+            <input type="text" placeholder="E-Mail"><br>
+            <input type="text" placeholder="Course looking for">
+          </form>
+
+
+          <button style="position: absolute; left: 40%; top: 85%; width: 20%; height: 40px; background-color: rgb(51, 48, 47);" >submit</button>
+            
+          ...
+        </div>
+        <div class="modal-footer">
+
+        
+         
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- skjdhsjkdhjskh -->
+
+<!-- modal end -->
+                    
+<!-- button -->
+<button id="ram" onclick="shyam()" style="position: fixed;" class="displaynone"><i class="fa-solid fa-arrow-up"></i></button>
+
+
+<!-- java script start -->
+
+<script>
+     function arti(){
+            document.getElementsByClassName("fa-bars")[0].classList.toggle("abc");
+            document.getElementsByClassName("fa-x")[0].classList.toggle("abc");
+            document.getElementsByClassName("menus")[0].classList.toggle("hide");
+        }
+        
+  AOS.init();
+
+nav
+
+
+//   dfjdjkgkj
+
+function bb(){
+    if (document.documentElement.scrollTop > 100){
+        document.getElementById("ram").classList.remove("displaynone");
+    }
+
+        else{
+            document.getElementById("ram").classList.add("displaynone")
+        }
+
+    }
+    function shyam(){
+        window.scrollTo(-100,0)
+
+    }
+
+
+</script>
+
+<!-- java script end -->
+
+
+
+
+
+    
+</body>
+</html>
+
+   
+   
+  
+
+
+
+
+
